@@ -4,10 +4,10 @@
         android:id="@+id/itemRed"
         android:title="배경색변경(Red)"/>
     <item
-        android:id="@+id/itemBLue"
+        android:id="@+id/itemBlue"
         android:title="배경색변경(Blue)"/>
     <item
-        android:id="@+id/itemMageta"
+        android:id="@+id/itemMagenta"
         android:title="배경색변경(Magenta)"/>
     <item
         android:title="버튼변경">
@@ -18,6 +18,12 @@
             <item
                 android:id="@+id/SubSize"
                 android:title="버튼 2배 확대"/>
+            <item
+                android:id="@+id/minusSize"
+                android:title="버튼 1/2배 축소"/>
+            <item
+                android:id="@+id/subInit"
+                android:title="버튼 원래대로"/>
         </menu>
     </item>
 </menu>
